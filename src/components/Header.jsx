@@ -6,7 +6,7 @@ function Header() {
     <header>
       <div className="div1">
     <br /><br />
-    <p id="br">Անհատներ</p>
+    <Link to="/">Անհատներ</Link>
     <br /><br />
   <Link to="/business">Բիզնես</Link>
 

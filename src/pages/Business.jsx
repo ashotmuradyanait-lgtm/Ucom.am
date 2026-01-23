@@ -2,7 +2,7 @@ import React from "react";
 import "./Business.css"
 function Business() {
   return (
-    <section>
+    <section className= "section">
        <div className="div2">
     </div>
    <div className="div2">
@@ -74,7 +74,7 @@ function Business() {
       <div className="divik2">
         <p id="pto">BUSINESS Basic</p>
         <i id="k1" className="fa fa-globe" aria-hidden="true" />
-        <p>20 ԳԲ ինտերնետ</p>
+        <p id="pach1">20 ԳԲ ինտերնետ</p>
         <img src="https://www.ucom.am/storage/files/instagram.svg" alt="" />
         <img src="https://www.ucom.am/storage/files/youtube.svg" alt="" />
         <img
@@ -95,7 +95,7 @@ function Business() {
         />
       </div>
       <i id="k2" className="fa fa-volume-control-phone" aria-hidden="true" />
-      <p>1000 րոպե</p>
+      <p id="pach2">1000 րոպե</p>
       <img
         id="ig1"
         src="https://www.ucom.am/storage/files/flag-01.svg"
@@ -117,7 +117,7 @@ function Business() {
         alt=""
       />
       <i className="fa fa-commenting-o" aria-hidden="true" />
-      <p>1000 SMS</p>
+      <p id="pach3">1000 SMS</p>
       <br />
       <br />
       <p id="ptego">2800֏ Ավելին</p>

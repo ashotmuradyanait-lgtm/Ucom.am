@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-#vosk{
-    width: 1014px;
-    height: 438px;
+.vosk{
+    width: 900px;
+    height: 338px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: "https://www.ucom.am/storage/files/image-5-_x358-quality(75)-webp(80).png?token=9e55fd48d20e54f5a40a14823480a418";
 }

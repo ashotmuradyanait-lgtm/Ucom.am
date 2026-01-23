@@ -28,8 +28,8 @@ function Rouming() {
     <i className="fa fa-credit-card" aria-hidden="true" />
     <p id="pv">Վճարել</p>
   </div>
-  <div>
-    <img id="vosk" src="https://www.ucom.am/storage/files/image-5-_x358-quality(75)-webp(80).png?token=9e55fd48d20e54f5a40a14823480a418" alt="" />
+  <div className="vosk">
+    <h1>Ռումինգ</h1>
   </div>
   </section>
   );

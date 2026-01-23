@@ -7,19 +7,19 @@ function Business() {
     </div>
    <div className="div2">
     <img id="img1" src="https://www.ucom.am/images/main_logo.svg" alt="" />
-    <p id="pteg">Շարժական կապ</p>
+    <p id="ptego">Շարժական կապ</p>
     <br />
     <br />
-    <p id="p2">ֆիքսված ծառայություններ</p>
+    <p id="po2">ֆիքսված ծառայություններ</p>
     <br />
     <br />
-    <p id="p3">Բիզնես լուծումներ</p>
+    <p id="po3">Բիզնես լուծումներ</p>
     <br />
     <br />
-    <p id="p4">Ամպային լուծումներ</p>
+    <p id="po4">Ամպային լուծումներ</p>
     <br />
     <br />
-    <p id="p">Uplay</p>
+    <p id="po">Uplay</p>
     <i className="fa fa-search" aria-hidden="true" />
     <br />
     <br />
@@ -126,9 +126,9 @@ function Business() {
     <div className="cros2">
       <p id="pto2">BUSINESS Optimum</p>
       <i id="a3" className="fa fa-globe" aria-hidden="true" />
-      <p>Անսահմանափակ ինտերնետ</p>
+      <p id="kl1">Անսահմանափակ ինտերնետ</p>
       <i id="a2" className="fa fa-volume-control-phone" aria-hidden="true" />
-      <p>3000 րոպե</p>
+      <p id="kl2">3000 րոպե</p>
       <img src="https://www.ucom.am/storage/files/instagram.svg" alt="" />
       <img src="https://www.ucom.am/storage/files/youtube.svg" alt="" />
       <img
@@ -149,28 +149,28 @@ function Business() {
       />
       <br />
       <i id="a" className="fa fa-commenting" aria-hidden="true" />
-      <p>3000 SMS</p>
+      <p id="kl3">3000 SMS</p>
       <p id="ptego2">5000֏ Ավելին</p>
       <p id="dvo2">Միանալ</p>
     </div>
     <div className="dvolo">
       <p id="pto4">uNet Corporate Basic</p>
-      <p>35 Մբ/վ արագություն</p>
-      <i class="fa fa-wifi" aria-hidden="true"></i>
-      <p>Wi-Fi սարք</p>
+      <p id="ps1">35 Մբ/վ արագություն</p>
+      <i id="wifi" class="fa fa-wifi" aria-hidden="true"></i>
+      <p id="ps2">Wi-Fi սարք</p>
       <i id="ha" className="fa fa-globe" aria-hidden="true" />
-      <p>FTTH տեխնոլոգիա</p>
+      <p id="ps3">FTTH տեխնոլոգիա</p>
       <p id="ptego2">18000֏ Ավելին</p>
       <p id="dvo3">Միանալ</p>
     </div>
     <div className="Hayk">
       <p id="pto5">uNet Corporate Premium</p>
       <i id="sa4" className="fa fa-wifi" aria-hidden="true" />
-      <p>75Մբ/վ արագություն</p>
+      <p id="las1">75Մբ/վ արագություն</p>
       <i id="sa3" className="fa fa-wifi" aria-hidden="true" />
-      <p>Wi-Fi սարք</p>
-      <i class="fa fa-globe" aria-hidden="true"></i>
-      <p>FTTH տեխնոլոգիա</p>
+      <p id="las2">Wi-Fi սարք</p>
+      <i id="kosht" class="fa fa-globe" aria-hidden="true"></i>
+      <p id="las3">FTTH տեխնոլոգիա</p>
       <p id="ptego2">40000֏ Ավելին</p>
       <p id="dvo3">Միանալ</p>
     </div>

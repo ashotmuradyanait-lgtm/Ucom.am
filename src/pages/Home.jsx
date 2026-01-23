@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <section>
@@ -13,7 +13,7 @@ function Home() {
     <p id="pteg">Շարժական կապ</p>
     <br />
     <br />
-    <p id="p2">Ռոումինգ</p>
+    <Link to="/rouming" id="p2">Ռոումինգ</Link>
     <br />
     <br />
     <p id="p3">5G ցանց</p>

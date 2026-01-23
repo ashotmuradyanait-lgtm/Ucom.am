@@ -1,0 +1,37 @@
+import "./Rouming.css"
+function Rouming() {
+  return (
+ <section>
+      <div className="div2">
+    </div>
+   <div className="div2">
+    <img id="img1" src="https://www.ucom.am/images/main_logo.svg" alt="" />
+    <p id="p1">Տան համար</p>
+    <br />
+    <br />
+    <p id="pteg">Շարժական կապ</p>
+    <br />
+    <br />
+    <p id="p3">5G ցանց</p>
+    <br />
+    <br />
+    <p id="p4">Uplay</p>
+    <br />
+    <br />
+    <i className="fa fa-search" aria-hidden="true" />
+    <br />
+    <br />
+    <i className="fa fa-shopping-cart" aria-hidden="true" />
+    <p id="pt">Առցանց խանութ</p>
+    <br />
+    <br />
+    <i className="fa fa-credit-card" aria-hidden="true" />
+    <p id="pv">Վճարել</p>
+  </div>
+  <div>
+    <img id="vosk" src="https://www.ucom.am/storage/files/image-5-_x358-quality(75)-webp(80).png?token=9e55fd48d20e54f5a40a14823480a418" alt="" />
+  </div>
+  </section>
+  );
+}
+export default Rouming;

@@ -18,7 +18,8 @@
 #kns{
     color: gray;
 }
-.div2{
+.div22{
+    background-color: black;
       display: flex;
     white-space: nowrap;
     white-space: pre;
@@ -28,11 +29,11 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
 }
-#p1{
+#po{
      transition: all 0.3s ease;
      color: white;
 }
-#p1:hover{
+#po:hover{
     transform: scale(1.1);
      background-color: rgb(49, 50, 49);
      width: 110px;
@@ -40,23 +41,23 @@
      border-radius: 5px;
      text-align: center;
 }
-#pteg{
+#ptego{
     transition: all 0.3s ease;
     color: white;
 }
-#pteg:hover{
+#ptego:hover{
      transform: scale(1.1);
      background-color: rgb(49, 50, 49);
-     width: 110px;
+     width: 250px;
      height: 30px;
      border-radius: 5px;
      text-align: center;
 }
-#p2{
+#po2{
     transition: all 0.3s ease;
     color: white;
 }
-#p2:hover{
+#po2:hover{
       transform: scale(1.1);
      background-color: rgb(49, 50, 49);
      width: 200px;
@@ -64,11 +65,11 @@
      border-radius: 5px;
      text-align: center;
 }
-#p3{
+#po3{
     transition: all 0.3s ease;
     color: white;
 }
-#p3:hover{
+#po3:hover{
       transform: scale(1.1);
      background-color: rgb(49, 50, 49);
      width: 160px;
@@ -76,11 +77,11 @@
      border-radius: 5px;
      text-align: center;
 }
-#p4{
+#po4{
     transition: all 0.3s ease;
     color: white;
 }
-#p4:hover{
+#po4:hover{
       transform: scale(1.1);
      background-color: rgb(49, 50, 49);
      width: 160px;
@@ -249,6 +250,7 @@ i{
 }
 #ptego{
     word-spacing: 100px;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #dvo{
@@ -265,6 +267,15 @@ i{
 #dvo:hover{
     transform: scale(1);
     background-color: greenyellow;
+}
+#kl1{
+    color: white;
+}
+#kl2{
+    color: white;
+}
+#kl3{
+    color: white;
 }
 #pto2{
     color: white;
@@ -312,8 +323,21 @@ i{
     width: 70px;
 }
 #ptego2{
+    color: white;
     word-spacing: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ps1{
+    color: white;
+}
+#ps2{
+    color: white;
+}
+#ps3{
+    color: white;
+}
+#wifi{
+    color: #71c313;
 }
 #dvo3{
     transition: all 0.3s ease;
@@ -329,6 +353,18 @@ i{
 #dvo3:hover{
     transform: scale(1);
     background-color: greenyellow;
+}
+#las1{
+    color: white;
+}
+#las2{
+    color: white;
+}
+#las3{
+    color: white;
+}
+#kosht{
+    color: #71c313;
 }
 #dvo2{
     transition: all 0.3s ease;

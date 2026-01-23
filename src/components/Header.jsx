@@ -1,43 +1,45 @@
 import React from "react";
-import { FaPhone, FaQuestionCircle, FaGlobe } from "react-icons/fa";
-
-export default function Header() {
+import { Link } from "react-router-dom";
+import "./Header.css"
+function Header() {
   return (
-    <header className="flex gap-4 justify-between">
-      <div className="flex gap-4">
-        <p className="font-medium cursor-pointer hover:text-green-500">Անհատներ</p>
-        <p className="font-medium cursor-pointer hover:text-green-500">Բիզնես</p>
-      </div>
+    <header>
+      <div className="div1">
+    <br /><br />
+    <p id="br">Անհատներ</p>
+    <br /><br />
+  <Link to="/business">Բիզնես</Link>
 
-      <div className="flex gap-4">
-        <FaPhone className="text-gray-500" />
-        <p className="font-medium">444 | 011 444 444</p>
-      </div>
+    <br /><br />
 
-      <div className="flex items-center gap-2">
-        <FaQuestionCircle className="text-gray-500" />
-        <a
-          href="https://www.ucom.am/help"
-          className="font-medium text-gray-700 hover:text-green-500"
-        >
-          Օգնություն
-        </a>
-      </div>
+    <i className="fa fa-phone" aria-hidden="true"></i>
+    <p id="br6">444 | 011 444 444</p>
+    <br />
 
-      <div className="flex items-center gap-2">
-        <p className="font-medium cursor-pointer hover:text-green-500">Մուտք</p>
-      </div>
-      <div className="flex items-center gap-2">
-        <FaGlobe className="text-gray-500" />
-        <p className="font-medium cursor-pointer hover:text-green-500">Հայ</p>
+    <i className="fa fa-question-circle" aria-hidden="true"></i>
+    <a id="br4" href="https://www.ucom.am/help">Օգնություն</a>
+    <br /><br />
 
-        <button
-          className="ml-2 p-1 border rounded hover:bg-gray-100"
-          aria-label="language switcher"
-        >
-          ▼
-        </button>
-      </div>
+    <p id="br3">Մուտք</p>
+    <br /><br />
+
+    <i className="fa fa-globe" aria-hidden="true"></i>
+    <p id="br5">Հայ</p>
+
+    <nav className="lg_block drop_block">
+      <button
+        className="drop_btn icon_globe"
+        aria-label="language switcher"
+      ></button>
+
+      <a
+        className="lang-switcher-item dropdown-item"
+        href="https://www.ucom.am/en/utravel"
+      ></a>
+    </nav>
+  </div>
     </header>
   );
 }
+
+export default Header;

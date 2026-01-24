@@ -30,9 +30,11 @@ function Rouming() {
   </div>
   <div className="vosk">
     <h1>Ռումինգ</h1>
+    <div className="vosk2">
+    <h4 id="krr">Ռոումինգ</h4>
+    <h4>Միջազգային զանգեր</h4>
   </div>
-  <div>
-    
+  <h4 id="roum">Երկիր</h4>
   </div>
   </section>
   );

@@ -3,20 +3,33 @@
     padding: 0;
 }
 .vosk{
+    border: 1px solid gray;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 900px;
-    height: 338px;
+    width: 800px;
+    height: 300px;
     text-align: center;
     background-image: "https://www.ucom.am/storage/files/image-5-_x358-quality(75)-webp(80).png?token=9e55fd48d20e54f5a40a14823480a418";
 }
-.avatar{
-    width: 500px;
-    height: 250px;
-    border-radius: 1px solid grey;
+.vosk2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
 }
 .svoy{
     display: flex;
     justify-content: space-between;
+}
+#krr{
+    border-bottom: 2px solid #7CE00B;
+}
+#roum{
+    color: gray;
+}
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

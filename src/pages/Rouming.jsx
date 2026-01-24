@@ -30,7 +30,9 @@ function Rouming() {
   </div>
   <div className="vosk">
     <h1>Ռումինգ</h1>
- 
+  </div>
+  <div>
+    
   </div>
   </section>
   );

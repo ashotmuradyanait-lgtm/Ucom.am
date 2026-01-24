@@ -3,7 +3,9 @@
     padding: 0;
 }
 .vosk{
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 900px;
     height: 338px;
     text-align: center;

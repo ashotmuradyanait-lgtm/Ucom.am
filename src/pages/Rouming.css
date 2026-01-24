@@ -56,3 +56,47 @@ h4{
 h5{
     color: grey;
 }
+.uxt{
+    display: flex;
+    justify-content: space-between;
+}
+#pato{
+    transition: all 0.3s ease;
+    color: grey;
+}
+#pato:hover{
+    transform: scale(1);
+    color: black;
+}
+#pato2{
+    transition: all 0.3s ease;
+    color: grey;
+}
+#pato2:hover{
+     transform: scale(1);
+    color: black;
+}
+#pato3{
+    transition: all 0.3s ease;
+    color: grey;
+}
+#pato3:hover{
+     transform: scale(1);
+    color: black;
+}
+#pato4{
+    transition: all 0.3s ease;
+    color: grey;
+}
+#pato4:hover{
+     transform: scale(1);
+    color: black;
+}
+#pato5{
+    transition: all 0.3s ease;
+    color: grey;
+}
+#pato5:hover{
+     transform: scale(1);
+    color: black;
+}

@@ -40,7 +40,28 @@ function Rouming() {
   <i id="fa-fa" class="fa fa-search" aria-hidden="true">Որոնել</i>
   </div>
   <h5>Հիմնական ուղղություններ</h5>
-  <div></div>
+  <div className="uxt">
+    <div>
+      <img src="https://www.ucom.am/images/flags/CY.svg" alt="" />
+      <p id="pato">Կիպրոս</p>
+    </div>
+     <div>
+      <img src="https://www.ucom.am/images/flags/EG.svg" alt="" />
+      <p id="pato2">Եգիպտոս</p>
+    </div>
+      <div>
+      <img src="https://www.ucom.am/images/flags/GE.svg" alt="" />
+      <p id="pato3">Վրաստան</p>
+    </div>
+     <div>
+      <img src="https://www.ucom.am/images/flags/IT.svg" alt="" />
+      <p id="pato4">Իտալիա</p>
+    </div>
+      <div>
+      <img src="https://www.ucom.am/images/flags/AE.svg" alt="" />
+      <p id="pato5">ԱՄԷ</p>
+    </div>
+  </div>
   </div>
   </section>
   );

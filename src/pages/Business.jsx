@@ -70,7 +70,7 @@ function Business() {
     <p id="pr">Լավագույն առաջարկ</p>
   </div>
   <div className="amboxj">
-    <div className="divik">
+    <div className="diviki">
       <div className="divik2">
         <p id="pto">BUSINESS Basic</p>
         <i id="k1" className="fa fa-globe" aria-hidden="true" />
@@ -123,7 +123,7 @@ function Business() {
       <p id="ptego">2800֏ Ավելին</p>
       <p id="dvo">Միանալ</p>
     </div>
-    <div className="cros2">
+    <div className="crosi2">
       <p id="pto2">BUSINESS Optimum</p>
       <i id="a3" className="fa fa-globe" aria-hidden="true" />
       <p id="kl1">Անսահմանափակ ինտերնետ</p>
@@ -153,7 +153,7 @@ function Business() {
       <p id="ptego2">5000֏ Ավելին</p>
       <p id="dvo2">Միանալ</p>
     </div>
-    <div className="dvolo">
+    <div className="dvoloi">
       <p id="pto4">uNet Corporate Basic</p>
       <p id="ps1">35 Մբ/վ արագություն</p>
       <i id="wifi" class="fa fa-wifi" aria-hidden="true"></i>
@@ -163,7 +163,7 @@ function Business() {
       <p id="ptego2">18000֏ Ավելին</p>
       <p id="dvo3">Միանալ</p>
     </div>
-    <div className="Hayk">
+    <div className="Hayki">
       <p id="pto5">uNet Corporate Premium</p>
       <i id="sa4" className="fa fa-wifi" aria-hidden="true" />
       <p id="las1">75Մբ/վ արագություն</p>

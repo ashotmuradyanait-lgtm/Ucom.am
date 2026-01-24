@@ -10,3 +10,8 @@
     text-align: center;
     background-image: "https://www.ucom.am/storage/files/image-5-_x358-quality(75)-webp(80).png?token=9e55fd48d20e54f5a40a14823480a418";
 }
+.avatar{
+    width: 500px;
+    height: 250px;
+    border-radius: 1px solid grey;
+}

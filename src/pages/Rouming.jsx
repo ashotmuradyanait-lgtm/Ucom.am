@@ -35,6 +35,7 @@ function Rouming() {
     <h4>Միջազգային զանգեր</h4>
   </div>
   <h4 id="roum">Երկիր</h4>
+  <input id="ip" type="text" placeholder="Նշեք երկիրը" />
   </div>
   </section>
   );

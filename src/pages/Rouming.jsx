@@ -37,8 +37,10 @@ function Rouming() {
   <h4 id="roum">Երկիր</h4>
   <div>
   <input id="ip" type="text" placeholder="Նշեք երկիրը" />
-  <i class="fa fa-search" aria-hidden="true">Որոնել</i>
+  <i id="fa-fa" class="fa fa-search" aria-hidden="true">Որոնել</i>
   </div>
+  <h5>Հիմնական ուղղություններ</h5>
+  <div></div>
   </div>
   </section>
   );

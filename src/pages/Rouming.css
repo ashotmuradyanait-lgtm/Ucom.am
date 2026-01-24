@@ -40,6 +40,19 @@ h4{
     width: 500px;
     height: 43px;
 }
-#rouming{
-    
+#fa-fa{
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #7CE00B;
+    height: 25px;
+    width: 80px;
+}
+#fa-fa:hover{
+    transform: scale(1);
+    background-color: greenyellow;
+}
+h5{
+    color: grey;
 }

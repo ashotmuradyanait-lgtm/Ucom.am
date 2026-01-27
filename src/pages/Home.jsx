@@ -78,7 +78,7 @@ function Home() {
         <p id="pto">Level Up+ 3000</p>
         <i id="k1" className="fa fa-globe" aria-hidden="true" />
         <p>30 ԳԲ ինտերնետ</p>
-        <div></div>
+        <div className="xcho">
         <img src="https://www.ucom.am/storage/files/instagram.svg" alt="" />
         <img src="https://www.ucom.am/storage/files/youtube.svg" alt="" />
         <img
@@ -97,9 +97,11 @@ function Home() {
           src="https://www.ucom.am/storage/files/duolingo.svg"
           alt=""
         />
+        </div>
       </div>
       <i id="k2" className="fa fa-volume-control-phone" aria-hidden="true" />
       <p>1500 րոպե</p>
+      <div></div>
       <img
         id="ig1"
         src="https://www.ucom.am/storage/files/flag-01.svg"

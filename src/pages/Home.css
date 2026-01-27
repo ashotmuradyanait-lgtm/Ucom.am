@@ -28,6 +28,10 @@
 #p1{
      transition: all 0.3s ease;
 }
+.xcho{
+    display: flex;
+    justify-content: space-between;
+}
 #p1:hover{
     transform: scale(1.1);
      background-color: rgb(220, 241, 209);

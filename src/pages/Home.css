@@ -36,6 +36,10 @@
      display: flex;
     justify-content: space-between;
 }
+.hunan{
+      display: flex;
+    justify-content: space-between;
+}
 #p1:hover{
     transform: scale(1.1);
      background-color: rgb(220, 241, 209);
@@ -239,6 +243,7 @@ i{
     width: 50px;
 }
 #ptego{
+    color: black;
     word-spacing: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Home.css"
 function Home() {
   return (
     <section>
@@ -77,6 +78,7 @@ function Home() {
         <p id="pto">Level Up+ 3000</p>
         <i id="k1" className="fa fa-globe" aria-hidden="true" />
         <p>30 ԳԲ ինտերնետ</p>
+        <div></div>
         <img src="https://www.ucom.am/storage/files/instagram.svg" alt="" />
         <img src="https://www.ucom.am/storage/files/youtube.svg" alt="" />
         <img

@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.section{
-    background-color: black;
-}
 .div1{
       display: flex;
     white-space: nowrap;
@@ -18,8 +15,7 @@
 #kns{
     color: gray;
 }
-.div22{
-    background-color: black;
+.div2{
       display: flex;
     white-space: nowrap;
     white-space: pre;
@@ -29,62 +25,57 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
 }
-#po{
+#p1{
      transition: all 0.3s ease;
-     color: white;
 }
-#po:hover{
+#p1:hover{
     transform: scale(1.1);
-     background-color: rgb(49, 50, 49);
+     background-color: rgb(220, 241, 209);
      width: 110px;
      height: 30px;
      border-radius: 5px;
      text-align: center;
 }
-#ptego{
+#pteg{
     transition: all 0.3s ease;
-    color: white;
 }
-#ptego:hover{
+#pteg:hover{
      transform: scale(1.1);
-     background-color: rgb(49, 50, 49);
-     width: 250px;
+     background-color: rgb(220, 241, 209);
+     width: 110px;
      height: 30px;
      border-radius: 5px;
      text-align: center;
 }
-#po2{
+#p2{
     transition: all 0.3s ease;
-    color: white;
 }
-#po2:hover{
+#p2:hover{
       transform: scale(1.1);
-     background-color: rgb(49, 50, 49);
-     width: 200px;
+     background-color: rgb(220, 241, 209);
+     width: 110px;
      height: 30px;
      border-radius: 5px;
      text-align: center;
 }
-#po3{
+#p3{
     transition: all 0.3s ease;
-    color: white;
 }
-#po3:hover{
+#p3:hover{
       transform: scale(1.1);
-     background-color: rgb(49, 50, 49);
-     width: 160px;
+     background-color: rgb(220, 241, 209);
+     width: 110px;
      height: 30px;
      border-radius: 5px;
      text-align: center;
 }
-#po4{
+#p4{
     transition: all 0.3s ease;
-    color: white;
 }
-#po4:hover{
+#p4:hover{
       transform: scale(1.1);
-     background-color: rgb(49, 50, 49);
-     width: 160px;
+     background-color: rgb(220, 241, 209);
+     width: 110px;
      height: 30px;
      border-radius: 5px;
      text-align: center;
@@ -115,7 +106,7 @@ i{
 #img2{
     display: block;
   margin: 0 auto;
-    height: 600px;
+    height: 550px;
     width: 1400px;
     border-radius: 20px;
 }
@@ -177,7 +168,6 @@ i{
 }
 #pr{
     font-size: 35px;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 #pto{
@@ -191,24 +181,15 @@ i{
     border-bottom: 20px;
     font-size: large;
 }
-.diviki{
+.divik{
     border: 1px solid gray;
     width: 300px;
-    height: 350px;
+    height: 450px;
     border-radius: 10px;
 }
 .divik2{
-    display: block;
+    display: block; 
     margin: 0 auto;
-}
-#pach1{
-    color: white;
-}
-#pach2{
-    color: white;
-}
-#pach3{
-    color: white;
 }
 #im{
     height: 30px;
@@ -251,7 +232,6 @@ i{
 }
 #ptego{
     word-spacing: 100px;
-    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #dvo{
@@ -269,15 +249,6 @@ i{
     transform: scale(1);
     background-color: greenyellow;
 }
-#kl1{
-    color: white;
-}
-#kl2{
-    color: white;
-}
-#kl3{
-    color: white;
-}
 #pto2{
     color: white;
     border-radius: 10px;
@@ -290,13 +261,13 @@ i{
     font-size: large;
 }
 
-.crosi2{
+.cros2{
     display: block;
     margin-top: -20px;    
    margin: 0 auto;
    border: 1px solid grey;
     width: 300px;
-    height: 350px;
+    height: 450px;
     border-radius: 10px;
 
 }
@@ -324,21 +295,8 @@ i{
     width: 70px;
 }
 #ptego2{
-    color: white;
     word-spacing: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#ps1{
-    color: white;
-}
-#ps2{
-    color: white;
-}
-#ps3{
-    color: white;
-}
-#wifi{
-    color: #71c313;
 }
 #dvo3{
     transition: all 0.3s ease;
@@ -354,18 +312,6 @@ i{
 #dvo3:hover{
     transform: scale(1);
     background-color: greenyellow;
-}
-#las1{
-    color: white;
-}
-#las2{
-    color: white;
-}
-#las3{
-    color: white;
-}
-#kosht{
-    color: #71c313;
 }
 #dvo2{
     transition: all 0.3s ease;
@@ -420,10 +366,10 @@ i{
     border-bottom: 20px;
     font-size: large;
 }
-.dvoloi{
+.dvolo{
     border: 1px solid grey;
     width: 300px;
-    height: 350px;
+    height: 450px;
     border-radius: 10px;
 }
 #ff3{
@@ -452,10 +398,10 @@ i{
      height: 50px;
     width: 50px;
 }
-.Hayki{
+.Hayk{
      border: 1px solid grey;
     width: 300px;
-    height: 350px;
+    height: 450px;
     border-radius: 10px;
 }
 #hv{

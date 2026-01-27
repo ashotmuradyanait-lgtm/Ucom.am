@@ -20,7 +20,7 @@ function Rouming() {
       placeholder="Նշեք երկիրը"
       className="w-full md:w-[500px] h-[43px] border border-gray-400 px-3 outline-none rounded-md"
     />
-    <button className="bg-[#7CE00B] text-black px-4 py-2 rounded-[10px] hover:bg-green-300 transition w-full md:w-auto">
+    <button className="bg-[#7CE00B] text-black px-4 py-2 rounded-[10px] w-[150px] h-[40px] hover:bg-green-300 transition w-full md:w-auto">
       Որոնել
     </button>
   </div>
@@ -44,7 +44,7 @@ function Rouming() {
 </div>
 
 <h1 className="text-2xl font-bold text-center mt-10">Ucom ռոումինգ</h1>
-
+<br /> <br />
 <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-10 mt-10 flex-wrap px-4">
   {[
     {
@@ -63,7 +63,7 @@ function Rouming() {
     <div key={i} className="text-center max-w-[250px] w-full md:w-auto">
       <h3 className="font-bold mb-2">{item.title}</h3>
       <p className="mb-4">{item.text}</p>
-      <p className="border border-[#7CE00B] px-4 py-2 rounded-[10px] w-[80px] mx-auto hover:bg-green-300 transition cursor-pointer">
+      <p className="border border-[#7CE00B] px-4 py-2 rounded-[10px] w-[100px] h-[40px] mx-auto hover:bg-green-300 transition cursor-pointer">
         Ավելին
       </p>
     </div>

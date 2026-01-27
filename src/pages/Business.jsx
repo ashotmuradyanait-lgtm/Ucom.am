@@ -1,181 +1,116 @@
 import React from "react";
-import "./Business.css"
 function Business() {
   return (
-    <section className= "section">
-       <div className="div2">
-    </div>
-   <div className="div2">
-    <img id="img1" src="https://www.ucom.am/images/main_logo.svg" alt="" />
-    <p id="ptego">Շարժական կապ</p>
-    <br />
-    <br />
-    <p id="po2">ֆիքսված ծառայություններ</p>
-    <br />
-    <br />
-    <p id="po3">Բիզնես լուծումներ</p>
-    <br />
-    <br />
-    <p id="po4">Ամպային լուծումներ</p>
-    <br />
-    <br />
-    <p id="po">Uplay</p>
-    <i className="fa fa-search" aria-hidden="true" />
-    <br />
-    <br />
-    <i className="fa fa-shopping-cart" aria-hidden="true" />
-    <p id="pt">Առցանց խանութ</p>
-    <br />
-    <br />
-    <i className="fa fa-credit-card" aria-hidden="true" />
-    <p id="pv">Վճարել</p>
-  </div>
-  <div>
+<section className="bg-black">
+  <div className="flex justify-between border-b border-gray-500 whitespace-nowrap px-6 py-4">
+
     <img
-      id="img2"
-      src="https://www.ucom.am/storage/files/digital-banner-screens-02.png-786x_-quality(75)-webp(80)-o(png).webp?token=70a9103d4c5209ac5cc673e6d30a9c4d"
+      id="img1"
+      src="https://www.ucom.am/images/main_logo.svg"
       alt=""
+      className="w-[100px] h-[100px]"
     />
-  </div>
-  <br />
-  <br />
-  <div className="dvushik">
-    <img
-      id="is1"
-      src="https://www.ucom.am/storage/files/person-with-phone.png-_x622-quality(75)-webp(80)-o(png).webp?token=19b0c955f60cde1ca934a781195a42f1"
-      alt=""
-    />
-    <img
-      id="is2"
-      src="https://www.ucom.am/storage/files/11111.png-_x622-quality(75)-webp(80)-o(png).webp?token=8fe590debbb45e910f3b68216ee0c8cf"
-      alt=""
-    />
-    <img
-      id="is3"
-      src="https://www.ucom.am/storage/files/voffice_1.png-_x622-quality(75)-webp(80)-o(png).webp?token=295ae89bcccb16a742fd35455af19cea"
-      alt=""
-    />
-    <img
-      id="is4"
-      src="https://www.ucom.am/storage/files/vpc1320x770-15.png-_x622-quality(75)-webp(80)-o(png).webp?token=c5dfd7adfc0c3b2597dff432909a2f78"
-      alt=""
-    />
-    <img
-      id="is5"
-      src="https://www.ucom.am/storage/files/news-arm.jpg-_x622-quality(75)-webp(80)-o(jpg).webp?token=2f5452caa497dcf8fe99b71c33cc16e0"
-      alt=""
-    />
-  </div>
-  <div>
-    <p id="pr">Լավագույն առաջարկ</p>
-  </div>
-  <div className="amboxj">
-    <div className="diviki">
-      <div className="divik2">
-        <p id="pto">BUSINESS Basic</p>
-        <i id="k1" className="fa fa-globe" aria-hidden="true" />
-        <p id="pach1">20 ԳԲ ինտերնետ</p>
-        <img src="https://www.ucom.am/storage/files/instagram.svg" alt="" />
-        <img src="https://www.ucom.am/storage/files/youtube.svg" alt="" />
-        <img
-          id="im"
-          src="https://www.ucom.am/storage/files/yandex-taxi.svg"
-          alt=""
-        />
-        <img
-          id="im2"
-          src="https://www.ucom.am/storage/files/viber.svg"
-          alt=""
-        />
-        <img id="im3" src="https://www.ucom.am/storage/files/gg.svg" alt="" />
-        <img
-          id="im4"
-          src="https://www.ucom.am/storage/files/duolingo.svg"
-          alt=""
-        />
-      </div>
-      <i id="k2" className="fa fa-volume-control-phone" aria-hidden="true" />
-      <p id="pach2">1000 րոպե</p>
-      <img
-        id="ig1"
-        src="https://www.ucom.am/storage/files/flag-01.svg"
-        alt=""
-      />
-      <img
-        id="ig2"
-        src="https://www.ucom.am/storage/files/flag-03.svg"
-        alt=""
-      />
-      <img
-        id="ig3"
-        src="https://www.ucom.am/storage/files/flag-for-armenia-svgrepo-com.svg"
-        alt=""
-      />
-      <img
-        id="ig4"
-        src="https://www.ucom.am/storage/files/ca-circle-01.png-64x_-quality(75)-webp(80)-o(png).webp?token=fde3fb0e5e63c798e892358d6f79fb87"
-        alt=""
-      />
-      <i className="fa fa-commenting-o" aria-hidden="true" />
-      <p id="pach3">1000 SMS</p>
-      <br />
-      <br />
-      <p id="ptego">2800֏ Ավելին</p>
-      <p id="dvo">Միանալ</p>
-    </div>
-    <div className="crosi2">
-      <p id="pto2">BUSINESS Optimum</p>
-      <i id="a3" className="fa fa-globe" aria-hidden="true" />
-      <p id="kl1">Անսահմանափակ ինտերնետ</p>
-      <i id="a2" className="fa fa-volume-control-phone" aria-hidden="true" />
-      <p id="kl2">3000 րոպե</p>
-      <img src="https://www.ucom.am/storage/files/instagram.svg" alt="" />
-      <img src="https://www.ucom.am/storage/files/youtube.svg" alt="" />
-      <img
-        id="imgh"
-        src="https://www.ucom.am/storage/files/yandex-taxi.svg"
-        alt=""
-      />
-      <img
-        id="imgh2"
-        src="https://www.ucom.am/storage/files/viber.svg"
-        alt=""
-      />
-      <img id="imgh3" src="https://www.ucom.am/storage/files/gg.svg" alt="" />
-      <img
-        id="imgh4"
-        src="https://www.ucom.am/storage/files/duolingo.svg"
-        alt=""
-      />
-      <br />
-      <i id="a" className="fa fa-commenting" aria-hidden="true" />
-      <p id="kl3">3000 SMS</p>
-      <p id="ptego2">5000֏ Ավելին</p>
-      <p id="dvo2">Միանալ</p>
-    </div>
-    <div className="dvoloi">
-      <p id="pto4">uNet Corporate Basic</p>
-      <p id="ps1">35 Մբ/վ արագություն</p>
-      <i id="wifi" class="fa fa-wifi" aria-hidden="true"></i>
-      <p id="ps2">Wi-Fi սարք</p>
-      <i id="ha" className="fa fa-globe" aria-hidden="true" />
-      <p id="ps3">FTTH տեխնոլոգիա</p>
-      <p id="ptego2">18000֏ Ավելին</p>
-      <p id="dvo3">Միանալ</p>
-    </div>
-    <div className="Hayki">
-      <p id="pto5">uNet Corporate Premium</p>
-      <i id="sa4" className="fa fa-wifi" aria-hidden="true" />
-      <p id="las1">75Մբ/վ արագություն</p>
-      <i id="sa3" className="fa fa-wifi" aria-hidden="true" />
-      <p id="las2">Wi-Fi սարք</p>
-      <i id="kosht" class="fa fa-globe" aria-hidden="true"></i>
-      <p id="las3">FTTH տեխնոլոգիա</p>
-      <p id="ptego2">40000֏ Ավելին</p>
-      <p id="dvo3">Միանալ</p>
+    <div className="flex gap-2 text-sm font-medium text-white items-center">
+      <p
+        id="ptego"
+        className="transition-all duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[250px] hover:h-[30px] rounded text-center">
+        Շարժական կապ
+      </p>
+      <p
+        id="po2"
+        className="transition-all duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[200px] hover:h-[30px] rounded text-center">
+        ֆիքսված ծառայություններ
+      </p>
+      <p
+        id="po3"
+        className="transition-all duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[160px] hover:h-[30px] rounded text-center">
+        Բիզնես լուծումներ
+      </p>
+      <p
+        id="po4"
+        className="transition-all duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[160px] hover:h-[30px] rounded text-center">
+        Ամպային լուծումներ
+      </p>
+      <p
+        id="po"
+        className="transition-all duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[110px] hover:h-[30px] rounded text-center">
+        Uplay
+      </p>
+      <i className="fa fa-search text-gray-400" />
+      <i className="fa fa-shopping-cart text-gray-400" />
+      <p id="pt" className="text-[15px]">
+        Առցանց խանութ
+      </p>
+      <i className="fa fa-credit-card text-gray-400" />
+      <p
+        id="pv"
+        className="bg-[#b4f293] text-black w-[110px] h-[30px] rounded text-center transition hover:border hover:border-green-400">
+        Վճարել
+      </p>
     </div>
   </div>
-    </section>
+
+  <img
+    id="img2"
+    src="https://www.ucom.am/storage/files/digital-banner-screens-02.png-786x_-quality(75)-webp(80)-o(png).webp"
+    alt=""
+    className="mx-auto my-10 w-[1400px] h-[600px] rounded-2xl"
+  />
+
+  <div className="flex justify-between gap-6 mx-auto">
+    {[ "is1", "is2", "is3", "is4", "is5" ].map((id, i) => (
+      <img
+        key={id}
+        id={id}
+        src={`https://www.ucom.am/storage/files/${i + 1}.png`}
+        alt=""
+        className="w-[300px] h-[400px] border border-gray-500 rounded-2xl transition-all duration-300 hover:scale-110"
+      />
+    ))}
+  </div>
+
+  <p id="pr" className="text-white text-[35px] font-sans my-10">
+    Լավագույն առաջարկ
+  </p>
+
+  <div className="flex gap-[100px]">
+    <div className="border border-gray-500 w-[300px] h-[350px] rounded-lg">
+      <p
+        id="pto"
+        className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
+        BUSINESS Basic
+      </p>
+      <p className="text-white mt-4">20 ԳԲ ինտերնետ</p>
+      <p className="text-white">1000 րոպե</p>
+      <p className="text-white">1000 SMS</p>
+      <p className="text-white mt-4">2800֏</p>
+      <p
+        id="dvo"
+        className="bg-[#7CE00B] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
+        Միանալ
+      </p>
+    </div>
+
+    <div className="border border-gray-500 w-[300px] h-[350px] rounded-lg">
+      <p
+        id="pto2"
+        className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
+        BUSINESS Optimum
+      </p>
+      <p className="text-white mt-4">Անսահմանափակ ինտերնետ</p>
+      <p className="text-white">3000 րոպե</p>
+      <p className="text-white">3000 SMS</p>
+      <p className="text-white mt-4">5000֏</p>
+      <p
+        id="dvo2"
+        className="bg-[#7CE00B] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
+        Միանալ
+      </p>
+    </div>
+
+  </div>
+</section>
+
   );
 }
 

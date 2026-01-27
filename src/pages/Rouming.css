@@ -100,3 +100,45 @@ h5{
      transform: scale(1);
     color: black;
 }
+.alil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+#ziro1{
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border: 1px solid #7CE00B;
+    height: 20px;
+    width: 80px;
+}
+#ziro1:hover{
+    transform: scale(1);
+    background-color: greenyellow;
+}
+#ziro2{
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border: 1px solid #7CE00B;
+    height: 20px;
+    width: 80px;
+}
+#ziro2:hover{
+    transform: scale(1);
+    background-color: greenyellow;
+}
+#ziro3{
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border: 1px solid #7CE00B;
+    height: 20px;
+    width: 80px;
+}
+#ziro3:hover{
+    transform: scale(1);
+    background-color: greenyellow;
+}

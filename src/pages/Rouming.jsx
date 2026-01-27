@@ -1,73 +1,74 @@
-import "./Rouming.css"
+
 function Rouming() {
   return (
  <section>
-      <div className="div2">
-    </div>
-   <div className="div2">
-    <img id="img1" src="https://www.ucom.am/images/main_logo.svg" alt="" />
-    <p id="p1">Տան համար</p>
-    <br />
-    <br />
-    <p id="pteg">Շարժական կապ</p>
-    <br />
-    <br />
-    <p id="p3">5G ցանց</p>
-    <br />
-    <br />
-    <p id="p4">Uplay</p>
-    <br />
-    <br />
-    <i className="fa fa-search" aria-hidden="true" />
-    <br />
-    <br />
-    <i className="fa fa-shopping-cart" aria-hidden="true" />
-    <p id="pt">Առցանց խանութ</p>
-    <br />
-    <br />
-    <i className="fa fa-credit-card" aria-hidden="true" />
-    <p id="pv">Վճարել</p>
+<div className="w-full md:w-[800px] mx-auto h-[300px] border border-gray-400 rounded-[20px] text-center bg-cover bg-center"
+     style={{ backgroundImage: "url('https://www.ucom.am/storage/files/image-5-_x358-quality(75)-webp(80).png?token=9e55fd48d20e54f5a40a14823480a418')" }}>
+  
+  <h1 className="text-2xl font-bold mt-4">Ռումինգ</h1>
+
+  <div className="flex justify-center items-center gap-5 p-2 flex-wrap">
+    <h4 className="border-b-2 border-[#7CE00B] font-sans">Ռոումինգ</h4>
+    <h4 className="font-sans">Միջազգային զանգեր</h4>
   </div>
-  <div className="vosk">
-    <h1>Ռումինգ</h1>
-    <div className="vosk2">
-    <h4 id="krr">Ռոումինգ</h4>
-    <h4>Միջազգային զանգեր</h4>
+
+  <h4 className="text-gray-400 block font-sans mt-2">Երկիր</h4>
+
+  <div className="flex flex-col md:flex-row justify-center items-center gap-2 mt-2 px-4">
+    <input
+      type="text"
+      placeholder="Նշեք երկիրը"
+      className="w-full md:w-[500px] h-[43px] border border-gray-400 px-3 outline-none rounded-md"
+    />
+    <button className="bg-[#7CE00B] text-black px-4 py-2 rounded-[10px] hover:bg-green-300 transition w-full md:w-auto">
+      Որոնել
+    </button>
   </div>
-  <h4 id="roum">Երկիր</h4>
-  <div>
-  <input id="ip" type="text" placeholder="Նշեք երկիրը" />
-  <i id="fa-fa" class="fa fa-search" aria-hidden="true">Որոնել</i>
+
+  <h5 className="text-gray-400 mt-4">Հիմնական ուղղություններ</h5>
+
+  <div className="flex flex-wrap justify-center gap-5 px-4 mt-3">
+    {[
+      { img: "CY", name: "Կիպրոս" },
+      { img: "EG", name: "Եգիպտոս" },
+      { img: "GE", name: "Վրաստան" },
+      { img: "IT", name: "Իտալիա" },
+      { img: "AE", name: "ԱՄԷ" },
+    ].map((c, i) => (
+      <div key={i} className="text-center">
+        <img src={`https://www.ucom.am/images/flags/${c.img}.svg`} className="mx-auto"/>
+        <p className="text-gray-400 hover:text-black transition">{c.name}</p>
+      </div>
+    ))}
   </div>
-  <h5>Հիմնական ուղղություններ</h5>
-  <div className="uxt">
-    <div>
-      <img src="https://www.ucom.am/images/flags/CY.svg" alt="" />
-      <p id="pato">Կիպրոս</p>
+</div>
+
+<h1 className="text-2xl font-bold text-center mt-10">Ucom ռոումինգ</h1>
+
+<div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-10 mt-10 flex-wrap px-4">
+  {[
+    {
+      title: "Ակտիվացում *121#",
+      text: "Արտերկրում Ձեր Ucom հեռախոսահամարից օգտվելու համար մինչև Հայաստանից մեկնելն ակտիվացրեք ռոումինգ ծառայությունը:",
+    },
+    {
+      title: "Խորհուրդներ ռոումինգի համար",
+      text: "Ucom ռոումինգի հետ միշտ կապի մեջ եղեք Ձեր ընտանիքի անդամների և ընկերների հետ:",
+    },
+    {
+      title: "Այցելուների համար",
+      text: "Նո՞ր եք ժամանել Հայաստան? Ձեր բջջային հեռախոսը միանալուն պես Դուք անմիջապես կմիանաք Ucom ցանցին։",
+    },
+  ].map((item, i) => (
+    <div key={i} className="text-center max-w-[250px] w-full md:w-auto">
+      <h3 className="font-bold mb-2">{item.title}</h3>
+      <p className="mb-4">{item.text}</p>
+      <p className="border border-[#7CE00B] px-4 py-2 rounded-[10px] w-[80px] mx-auto hover:bg-green-300 transition cursor-pointer">
+        Ավելին
+      </p>
     </div>
-     <div>
-      <img src="https://www.ucom.am/images/flags/EG.svg" alt="" />
-      <p id="pato2">Եգիպտոս</p>
-    </div>
-      <div>
-      <img src="https://www.ucom.am/images/flags/GE.svg" alt="" />
-      <p id="pato3">Վրաստան</p>
-    </div>
-     <div>
-      <img src="https://www.ucom.am/images/flags/IT.svg" alt="" />
-      <p id="pato4">Իտալիա</p>
-    </div>
-      <div>
-      <img src="https://www.ucom.am/images/flags/AE.svg" alt="" />
-      <p id="pato5">ԱՄԷ</p>
-    </div>
-  </div>
-  </div>
-  <br /><br />
-  <h1>Ucom ռոումինգ</h1>
-  <div>
-    
-  </div>
+  ))}
+</div>
   </section>
   );
 }

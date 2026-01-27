@@ -101,7 +101,7 @@ function Home() {
       </div>
       <i id="k2" className="fa fa-volume-control-phone" aria-hidden="true" />
       <p>1500 րոպե</p>
-      <div></div>
+      <div className="frula">
       <img
         id="ig1"
         src="https://www.ucom.am/storage/files/flag-01.svg"
@@ -122,10 +122,12 @@ function Home() {
         src="https://www.ucom.am/storage/files/ca-circle-01.png-64x_-quality(75)-webp(80)-o(png).webp?token=fde3fb0e5e63c798e892358d6f79fb87"
         alt=""
       />
+      </div>
       <i className="fa fa-commenting-o" aria-hidden="true" />
       <p>300 SMS</p>
       <p>35 հեռուստաալիք՝</p>
       <p id="a">Uplay հարթակում</p>
+      <div></div>
       <img
         src="https://www.ucom.am/storage/files/fast-sport.png-96x_-quality(75)-webp(80)-o(png).webp?token=9186d06caeafdfa426cd01f57aeb0aa6"
         alt=""

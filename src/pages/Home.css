@@ -32,6 +32,10 @@
     display: flex;
     justify-content: space-between;
 }
+.frula{
+     display: flex;
+    justify-content: space-between;
+}
 #p1:hover{
     transform: scale(1.1);
      background-color: rgb(220, 241, 209);

@@ -151,7 +151,7 @@ function Home() {
       <p>Անսահմանափակ ինտերնետ</p>
       <i id="a2" className="fa fa-volume-control-phone" aria-hidden="true" />
       <p>700 րոպե</p>
-      <div></div>
+      <div className="type4">
       <img src="https://www.ucom.am/storage/files/instagram.svg" alt="" />
       <img src="https://www.ucom.am/storage/files/youtube.svg" alt="" />
       <img
@@ -170,11 +170,12 @@ function Home() {
         src="https://www.ucom.am/storage/files/duolingo.svg"
         alt=""
       />
-      <br />
+      </div>
       <i id="a" className="fa fa-commenting" aria-hidden="true" />
       <p>500 SMS</p>
       <p>35 հեռուստաալիք՝</p>
       <p id="ptvo">Uplay հարթակում</p>
+      <div></div>
       <img
         src="https://www.ucom.am/storage/files/fast-sport.png-96x_-quality(75)-webp(80)-o(png).webp?token=9186d06caeafdfa426cd01f57aeb0aa6"
         alt=""
@@ -223,7 +224,7 @@ function Home() {
       <p id="H">200 ՄԲ ռոումինգում</p>
       <p>35 հեռուստաալիք՝</p>
       <p id="ptvo2">Uplay հարթակում</p>
-      <div></div>
+      <div className="type3">
       <img
         src="https://www.ucom.am/storage/files/fast-sport.png-96x_-quality(75)-webp(80)-o(png).webp?token=9186d06caeafdfa426cd01f57aeb0aa6"
         alt=""
@@ -237,6 +238,7 @@ function Home() {
         src="https://www.ucom.am/storage/files/download_15.png-96x_-quality(75)-webp(80)-o(png).webp?token=8cb4fc7679f1b5fb98b40a0664e60ef5"
         alt=""
       />
+      </div>
       <p id="ptego2">5000֏ Ավելին</p>
       <p id="dvo3">Միանալ</p>
     </div>

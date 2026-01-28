@@ -246,6 +246,7 @@ function Home() {
       <p>400ՄԲ/վ տան ինտերնետ</p>
       <p>200+ հեռուստաալիք՝</p>
       <p id="ptvo2">Uplay հարթակում</p>
+      <div>
       <img
         src="https://www.ucom.am/storage/files/fast-sport.png-96x_-quality(75)-webp(80)-o(png).webp?token=9186d06caeafdfa426cd01f57aeb0aa6"
         alt=""
@@ -265,6 +266,7 @@ function Home() {
         src="https://www.ucom.am/storage/files/whatsapp-image-2025-04-28-at-163314.png-40x_-quality(75)-webp(80)-o(png).webp?token=79451e7a68594b1335531c5d93092d01"
         alt=""
       />
+      </div>
       <p>Անվճար Premium WiFi Plus սարք,</p>
       <p>Smart TV box</p>
       <i id="sa2" className="fa fa-globe" aria-hidden="true" />

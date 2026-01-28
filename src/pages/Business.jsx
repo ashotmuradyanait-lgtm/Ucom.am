@@ -2,7 +2,7 @@ import React from "react";
 function Business() {
   return (
 <section className="bg-black">
-  <div className="flex justify-between border-b border-gray-500 whitespace-nowrap px-6 py-4">
+  <div className="w-full md:w-[800px] flex justify-between border-b border-gray-500 whitespace-nowrap px-6 py-4">
 
     <img
       id="img1"
@@ -10,7 +10,7 @@ function Business() {
       alt=""
       className="w-[100px] h-[100px]"
     />
-    <div className="flex gap-2 text-sm font-medium text-white items-center">
+    <div className="md:flex-row flex gap-2 text-sm font-medium text-white items-center">
       <p
         className="transition-all text-white duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[250px] hover:h-[30px] rounded text-center">
         Շարժական կապ
@@ -56,7 +56,7 @@ function Business() {
     className="mx-auto my-10 w-[1400px] h-[600px] rounded-2xl"
   />
 
-  <div className="flex justify-between gap-6 mx-auto">
+  <div className="w-full md:w-[500px] flex justify-between gap-6 mx-auto">
     {[ "is1", "is2", "is3", "is4",].map((id, i) => (
       <img
         key={id}
@@ -68,14 +68,13 @@ function Business() {
     ))}
   </div>
 
-  <p id="pr" className="text-white text-[35px] font-sans my-10">
+  <p className="text-white text-[35px] font-sans my-10">
     Լավագույն առաջարկ
   </p>
 
-  <div className="flex gap-[100px]">
-    <div className="border border-gray-500 w-[300px] h-[350px] rounded-lg">
+  <div className="md:flex-row flex gap-[100px] md:items-center">
+    <div className="border border-gray-500 w-[400px] h-[350px] rounded-lg">
       <p
-        id="pto"
         className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
         BUSINESS Basic
       </p>
@@ -85,15 +84,13 @@ function Business() {
       <p className="text-white mt-4">2800֏</p>
       <br /><br />
       <p
-        id="dvo"
         className="bg-[#7CE00B] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
         Միանալ
       </p>
     </div>
 
-    <div className="border border-gray-500 w-[300px] h-[350px] rounded-lg">
+    <div className="border border-gray-500 w-[400px] h-[350px] rounded-lg">
       <p
-        id="pto2"
         className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
         BUSINESS Optimum
       </p>
@@ -103,14 +100,12 @@ function Business() {
       <p className="text-white mt-4">5000֏</p>
       <br /><br />
       <p
-        id="dvo2"
         className="bg-[#7CE00B] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
         Միանալ
       </p>
     </div>
-        <div className="border border-gray-500 w-[300px] h-[350px] rounded-lg">
+        <div className="border border-gray-500 w-[400px] h-[350px] rounded-lg">
       <p
-        id="pto2"
         className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
         uNet Corporate Basic
       </p>
@@ -120,14 +115,12 @@ function Business() {
       <p className="text-white mt-4">18000֏</p>
       <br /><br />
       <p
-        id="dvo2"
         className="bg-[#7CE00B] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
         Միանալ
       </p>
     </div>
-       <div className="border border-gray-500 w-[300px] h-[350px] rounded-lg">
+       <div className="border border-gray-500 w-[400px] h-[350px] rounded-lg">
       <p
-        id="pto2"
         className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
         uNet Corporate Premium
       </p>
@@ -141,21 +134,20 @@ function Business() {
         Միանալ
       </p>
     </div>
-       <div className="border border-gray-500 w-[300px] h-[350px] rounded-lg">
+       <div className="border border-gray-500 w-[400px] h-[350px] rounded-lg">
       <p
-        id="pto2"
         className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
         Uplay Business Extra
       </p>
       <p className="text-white mt-4">165+ հեռուստաալիք՝</p>
-      <p className="text-green mt-4">Uplay հարթակում</p>
+      <p className="text-white mt-4">Uplay հարթակում</p>
       <p className="text-white">34 HD ալիք</p>
       <p className="text-white">7 օր Catch-up</p>
       <p className="text-white">Անվճար Smart TV Box</p>
       <p className="text-white mt-4">4900֏</p>
       <br /><br />
       <p
-        className="bg-[#7CE00B] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
+        className="bg-[#71c313] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
         Միանալ
       </p>
     </div>

@@ -1064,3 +1064,11 @@ color: black;
     display: flex;
     gap: 970px;
 }
+.type{
+    display: flex;
+    justify-content: space-between;
+}
+.type2{
+    display: flex;
+    justify-content: space-between;
+}

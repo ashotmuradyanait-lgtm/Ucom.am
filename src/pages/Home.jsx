@@ -197,6 +197,7 @@ function Home() {
       <p>Անսահմանափակ ինտերնետ</p>
       <i id="ha2" className="fa fa-volume-control-phone" aria-hidden="true" />
       <p>3000 րոպե</p>
+      <div className="type2">
       <img src="https://www.ucom.am/storage/files/instagram.svg" alt="" />
       <img src="https://www.ucom.am/storage/files/youtube.svg" alt="" />
       <img
@@ -211,7 +212,7 @@ function Home() {
         src="https://www.ucom.am/storage/files/duolingo.svg"
         alt=""
       />
-      <br />
+      </div>
       <i id="ha" className="fa fa-commenting" aria-hidden="true" />
       <p>1000 SMS</p>
       <img
@@ -222,6 +223,7 @@ function Home() {
       <p id="H">200 ՄԲ ռոումինգում</p>
       <p>35 հեռուստաալիք՝</p>
       <p id="ptvo2">Uplay հարթակում</p>
+      <div></div>
       <img
         src="https://www.ucom.am/storage/files/fast-sport.png-96x_-quality(75)-webp(80)-o(png).webp?token=9186d06caeafdfa426cd01f57aeb0aa6"
         alt=""
@@ -246,7 +248,7 @@ function Home() {
       <p>400ՄԲ/վ տան ինտերնետ</p>
       <p>200+ հեռուստաալիք՝</p>
       <p id="ptvo2">Uplay հարթակում</p>
-      <div>
+      <div className="type">
       <img
         src="https://www.ucom.am/storage/files/fast-sport.png-96x_-quality(75)-webp(80)-o(png).webp?token=9186d06caeafdfa426cd01f57aeb0aa6"
         alt=""
@@ -260,7 +262,6 @@ function Home() {
         src="https://www.ucom.am/storage/files/download_15.png-96x_-quality(75)-webp(80)-o(png).webp?token=8cb4fc7679f1b5fb98b40a0664e60ef5"
         alt=""
       />
-      <br />
       <img
         id="klto"
         src="https://www.ucom.am/storage/files/whatsapp-image-2025-04-28-at-163314.png-40x_-quality(75)-webp(80)-o(png).webp?token=79451e7a68594b1335531c5d93092d01"

@@ -6,7 +6,6 @@ function Home() {
   return ( 
     <>
     <div className="div2">
-      <div></div>
         <img id="img1" src="https://www.ucom.am/images/main_logo.svg" alt="" />
         <p id="p1">Տան համար</p>
         <br />

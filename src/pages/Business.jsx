@@ -1,158 +1,183 @@
 import React from "react";
 function Business() {
   return (
-<section className="bg-black">
-  <div className="w-full md:w-[800px] flex justify-between border-b border-gray-500 whitespace-nowrap px-6 py-4">
-
+<section className="bg-black min-h-screen">
+  <div
+    className="w-full md:w-[800px] mx-auto flex flex-col md:flex-row items-center md:justify-between border-b border-gray-500px-4 md:px-6 py-4gap-4">
     <img
-      id="img1"
       src="https://www.ucom.am/images/main_logo.svg"
       alt=""
-      className="w-[100px] h-[100px]"
-    />
-    <div className="md:flex-row flex gap-2 text-sm font-medium text-white items-center">
-      <p
-        className="transition-all text-white duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[250px] hover:h-[30px] rounded text-center">
-        Շարժական կապ
-      </p>
-      <p
-        id="po2"
-        className="transition-all duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[200px] hover:h-[30px] rounded text-center">
-        ֆիքսված ծառայություններ
-      </p>
-      <p
-        id="po3"
-        className="transition-all duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[160px] hover:h-[30px] rounded text-center">
-        Բիզնես լուծումներ
-      </p>
-      <p
-        id="po4"
-        className="transition-all duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[160px] hover:h-[30px] rounded text-center">
-        Ամպային լուծումներ
-      </p>
-      <p
-        id="po"
-        className="transition-all duration-300 hover:scale-110 hover:bg-[#313231] hover:w-[110px] hover:h-[30px] rounded text-center">
-        Uplay
-      </p>
+      className="w-[80px] h-[80px] md:w-[100px] md:h-[100px]"/>
+
+    <div
+      className="
+        flex flex-wrap md:flex-nowrap
+        justify-center md:justify-end
+        gap-3
+        text-sm font-medium text-white items-center
+      "
+    >
+      {[
+        "Շարժական կապ",
+        "Ֆիքսված ծառայություններ",
+        "Բիզնես լուծումներ",
+        "Ամպային լուծումներ",
+        "Uplay",
+      ].map((item, i) => (
+        <p
+          key={i}
+          className="
+            transition-all duration-300
+            hover:scale-110 hover:bg-[#313231]
+            px-3 py-1 rounded text-center
+          "
+        >
+          {item}
+        </p>
+      ))}
+
       <i className="fa fa-search text-gray-400" />
       <i className="fa fa-shopping-cart text-gray-400" />
-      <p id="pt" className="text-[15px]">
-        Առցանց խանութ
-      </p>
+      <p className="text-[15px]">Առցանց խանութ</p>
       <i className="fa fa-credit-card text-gray-400" />
+
       <p
-        id="pv"
-        className="bg-[#b4f293] text-black w-[110px] h-[30px] rounded text-center transition hover:border hover:border-green-400">
+        className="
+          bg-[#b4f293] text-black
+          w-[110px] h-[30px]
+          rounded text-center
+          transition hover:border hover:border-green-400">
         Վճարել
       </p>
     </div>
   </div>
 
   <img
-    id="img2"
     src="https://www.ucom.am/storage/files/digital-banner-screens-02.png-786x_-quality(75)-webp(80)-o(png).webp"
     alt=""
-    className="mx-auto my-10 w-[1400px] h-[600px] rounded-2xl"
-  />
-
-  <div className="w-full md:w-[500px] flex justify-between gap-6 mx-auto">
-    {[ "is1", "is2", "is3", "is4",].map((id, i) => (
+    className="
+      mx-auto my-6 md:my-10
+      w-full md:w-[1400px]
+      h-[250px] sm:h-[350px] md:h-[600px]
+      object-cover rounded-2xl
+    "/>
+  <div
+    className="
+      grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4
+      gap-6
+      mx-auto px-4
+    "
+  >
+    {[1, 2, 3, 4].map((i) => (
       <img
-        key={id}
-        id={id}
-        src={`https://www.ucom.am/storage/files/${i + 1}.png`}
+        key={i}
+        src={`https://www.ucom.am/storage/files/${i}.png`}
         alt=""
-        className="w-[300px] h-[400px] border border-gray-500 rounded-2xl transition-all duration-300 hover:scale-110"
+        className="
+          w-full h-[300px] sm:h-[200px] md:h-[450px]
+          border border-gray-500
+          rounded-2xl
+          transition-all duration-300 hover:scale-105
+        "
       />
     ))}
   </div>
-
-  <p className="text-white text-[35px] font-sans my-10">
+  <p
+    className="
+      text-white text-[24px] md:text-[35px]
+      font-sans my-6 md:my-10
+      text-center">
     Լավագույն առաջարկ
   </p>
+  <div
+    className="
+      grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3
+      gap-8 md:gap-12
+      px-4 pb-10
+    "
+  >
+    {[
+      {
+        title: "BUSINESS Basic",
+        items: ["20 ԳԲ ինտերնետ", "1000 րոպե", "1000 SMS"],
+        price: "2800֏",
+      },
+      {
+        title: "BUSINESS Optimum",
+        items: ["Անսահմանափակ ինտերնետ", "3000 րոպե", "3000 SMS"],
+        price: "5000֏",
+      },
+      {
+        title: "uNet Corporate Basic",
+        items: ["35Մբ/վ արագություն", "Wi-Fi սարք", "FTTH տեխնոլոգիա"],
+        price: "18000֏",
+      },
+      {
+        title: "uNet Corporate Premium",
+        items: ["75Մբ/վ արագություն", "Wi-Fi սարք", "FTTH տեխնոլոգիա"],
+        price: "40000֏",
+      },
+      {
+        title: "Uplay Business Extra",
+        items: [
+          "165+ հեռուստաալիք",
+          "34 HD ալիք",
+          "7 օր Catch-up",
+          "Անվճար Smart TV Box",
+        ],
+        price: "4900֏",
+      },
+    ].map((card, i) => (
+      <div
+        key={i}
+        className="
+          border border-gray-500
+          w-full max-w-[400px]
+          min-h-[350px]
+          rounded-lg
+          mx-auto
+          text-center
+          p-4
+        "
+      >
+        <p
+          className="
+            bg-[#71c313] text-white
+            h-[50px]
+            rounded-lg text-lg
+            flex items-center justify-center
+          "
+        >
+          {card.title}
+        </p>
 
-  <div className="md:flex-row flex gap-[100px] md:items-center">
-    <div className="border border-gray-500 w-[400px] h-[350px] rounded-lg">
-      <p
-        className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
-        BUSINESS Basic
-      </p>
-      <p className="text-white mt-4">20 ԳԲ ինտերնետ</p>
-      <p className="text-white">1000 րոպե</p>
-      <p className="text-white">1000 SMS</p>
-      <p className="text-white mt-4">2800֏</p>
-      <br /><br />
-      <p
-        className="bg-[#7CE00B] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
-        Միանալ
-      </p>
-    </div>
+        <div className="mt-4 space-y-1">
+          {card.items.map((it, idx) => (
+            <p key={idx} className="text-white">
+              {it}
+            </p>
+          ))}
+        </div>
 
-    <div className="border border-gray-500 w-[400px] h-[350px] rounded-lg">
-      <p
-        className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
-        BUSINESS Optimum
-      </p>
-      <p className="text-white mt-4">Անսահմանափակ ինտերնետ</p>
-      <p className="text-white">3000 րոպե</p>
-      <p className="text-white">3000 SMS</p>
-      <p className="text-white mt-4">5000֏</p>
-      <br /><br />
-      <p
-        className="bg-[#7CE00B] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
-        Միանալ
-      </p>
-    </div>
-        <div className="border border-gray-500 w-[400px] h-[350px] rounded-lg">
-      <p
-        className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
-        uNet Corporate Basic
-      </p>
-      <p className="text-white mt-4">35Մբ/վ արագություն</p>
-      <p className="text-white">Wi-Fi սարք</p>
-      <p className="text-white">FTTH տեխնոլոգիա</p>
-      <p className="text-white mt-4">18000֏</p>
-      <br /><br />
-      <p
-        className="bg-[#7CE00B] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
-        Միանալ
-      </p>
-    </div>
-       <div className="border border-gray-500 w-[400px] h-[350px] rounded-lg">
-      <p
-        className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
-        uNet Corporate Premium
-      </p>
-      <p className="text-white mt-4">75Մբ/վ արագություն</p>
-      <p className="text-white">Wi-Fi սարք</p>
-      <p className="text-white">FTTH տեխնոլոգիա</p>
-      <p className="text-white mt-4">40000֏</p>
-      <br /><br />
-      <p
-        className="bg-[#7CE00B] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
-        Միանալ
-      </p>
-    </div>
-       <div className="border border-gray-500 w-[400px] h-[350px] rounded-lg">
-      <p
-        className="bg-[#71c313] text-white text-center h-[50px] rounded-lg text-lg flex items-center justify-center">
-        Uplay Business Extra
-      </p>
-      <p className="text-white mt-4">165+ հեռուստաալիք՝</p>
-      <p className="text-white mt-4">Uplay հարթակում</p>
-      <p className="text-white">34 HD ալիք</p>
-      <p className="text-white">7 օր Catch-up</p>
-      <p className="text-white">Անվճար Smart TV Box</p>
-      <p className="text-white mt-4">4900֏</p>
-      <br /><br />
-      <p
-        className="bg-[#71c313] w-[150px] h-[30px] text-center rounded font-bold mx-auto mt-4 transition hover:bg-green-300">
-        Միանալ
-      </p>
-    </div>
+        <p className="text-white mt-4">{card.price}</p>
+
+        <p
+          className="
+            bg-[#7CE00B]
+            w-[150px] h-[30px]
+            text-center rounded
+            font-bold mx-auto mt-6
+            flex items-center justify-center
+            transition hover:bg-green-300
+          "
+        >
+          Միանալ
+        </p>
+      </div>
+    ))}
   </div>
 </section>
+
 
   );
 }

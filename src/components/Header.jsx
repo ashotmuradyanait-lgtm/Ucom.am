@@ -1,45 +1,88 @@
-import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Header.css"
-function Header() {
+    
+function HeaderTop() {
+  const [isLangOpen, setIsLangOpen] = useState(false);
+
   return (
     <header>
-      <div className="div1">
-    <br /><br />
-    <Link to="/">Անհատներ</Link>
-    <br /><br />
-  <Link to="/business">Բիզնես</Link>
+    <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between border-b border-gray-400 px-4 py-3 whitespace-nowrap">
 
-    <br /><br />
+      <div className="flex gap-6 items-center">
+        <Link to="/" className="font-[Montserrat] text-gray-700 hover:text-black transition">
+          Անհատներ
+        </Link>
+        <Link to="/business" className="font-[Montserrat] text-gray-700 hover:text-black transition">
+          Բիզնես
+        </Link>
+      </div>
 
-    <i className="fa fa-phone" aria-hidden="true"></i>
-    <p id="br6">444 | 011 444 444</p>
-    <br />
+      <div className="flex items-center gap-2 text-gray-500">
+        <i className="fa fa-phone">444 | 011 444 444</i>
+      </div>
 
-    <i className="fa fa-question-circle" aria-hidden="true"></i>
-    <a id="br4" href="https://www.ucom.am/help">Օգնություն</a>
-    <br /><br />
+      <div className="flex items-center gap-2 text-gray-500">
+        <i className="fa fa-question-circle"></i>
+        <a
+          href="https://www.ucom.am/help"
+          className="hover:text-black transition font-[Montserrat]"
+        >
+          Օգնություն
+        </a>
+      </div>
 
-    <p id="br3">Մուտք</p>
-    <br /><br />
+      <p className="font-[Montserrat] text-gray-500 hover:text-black cursor-pointer transition">
+        Մուտք
+      </p>
 
-    <i className="fa fa-globe" aria-hidden="true"></i>
-    <p id="br5">Հայ</p>
+      <div className="flex items-center gap-2 text-gray-500 relative">
+        <i className="fa fa-globe">Հայ</i>
 
-    <nav className="lg_block drop_block">
-      <button
-        className="drop_btn icon_globe"
-        aria-label="language switcher"
-      ></button>
+        <button
+          onClick={() => setIsLangOpen(prev => !prev)}
+          className="w-6 h-6 bg-gray-200 rounded-full"
+          aria-label="language switcher"
+        />
 
-      <a
-        className="lang-switcher-item dropdown-item"
-        href="https://www.ucom.am/en/utravel"
-      ></a>
-    </nav>
-  </div>
+        {isLangOpen && (
+          <a
+            href="https://www.ucom.am/en/utravel"
+            className="absolute top-full right-0 mt-2 bg-white shadow px-4 py-2 hover:bg-gray-100"
+          >
+            English
+          </a>
+        )}
+      </div>
+    </div>
+    <div className="div2">
+        <img id="img1" src="https://www.ucom.am/images/main_logo.svg" alt="" />
+        <p id="p1">Տան համար</p>
+        <br />
+        <br />
+        <p id="pteg">Շարժական կապ</p>
+        <br />
+        <br />
+        <Link to="/rouming" id="p2">Ռոումինգ</Link>
+        <br />
+        <br />
+        <p id="p3">5G ցանց</p>
+        <br />
+        <br />
+        <p id="p4">Uplay</p>
+        <br />
+        <br />
+        <i className="fa fa-search" aria-hidden="true" />
+        <br />
+        <br />
+        <i className="fa fa-shopping-cart" aria-hidden="true" />
+        <p id="pt">Առցանց խանութ</p>
+        <br />
+        <br />
+        <i className="fa fa-credit-card" aria-hidden="true" />
+        <p id="pv">Վճարել</p>
+      </div>
     </header>
   );
 }
 
-export default Header;
+export default HeaderTop;

@@ -6,40 +6,6 @@ function Home() {
     <section>
       <div className="div2">
     </div>
-   <div className="div2">
-    <img id="img1" src="https://www.ucom.am/images/main_logo.svg" alt="" />
-    <p id="p1">Տան համար</p>
-    <br />
-    <br />
-    <p id="pteg">Շարժական կապ</p>
-    <br />
-    <br />
-    <Link to="/rouming" id="p2">Ռոումինգ</Link>
-    <br />
-    <br />
-    <p id="p3">5G ցանց</p>
-    <br />
-    <br />
-    <p id="p4">Uplay</p>
-    <br />
-    <br />
-    <i className="fa fa-search" aria-hidden="true" />
-    <br />
-    <br />
-    <i className="fa fa-shopping-cart" aria-hidden="true" />
-    <p id="pt">Առցանց խանութ</p>
-    <br />
-    <br />
-    <i className="fa fa-credit-card" aria-hidden="true" />
-    <p id="pv">Վճարել</p>
-  </div>
-  <div>
-    <img
-      id="img2"
-      src="https://www.ucom.am/storage/files/utravel-2720x1080-arm.jpg-2720x_-quality(75)-webp(80)-o(jpg).webp?token=713349e5b28ffb3d365c958ce0d62b56"
-      alt=""
-    />
-  </div>
   <br />
   <br />
   <div className="dvushik">
@@ -175,7 +141,7 @@ function Home() {
       <p>500 SMS</p>
       <p>35 հեռուստաալիք՝</p>
       <p id="ptvo">Uplay հարթակում</p>
-      <div></div>
+      <div className="type5">
       <img
         src="https://www.ucom.am/storage/files/fast-sport.png-96x_-quality(75)-webp(80)-o(png).webp?token=9186d06caeafdfa426cd01f57aeb0aa6"
         alt=""
@@ -189,6 +155,7 @@ function Home() {
         src="https://www.ucom.am/storage/files/download_15.png-96x_-quality(75)-webp(80)-o(png).webp?token=8cb4fc7679f1b5fb98b40a0664e60ef5"
         alt=""
       />
+      </div>
       <p id="ptego2">4000֏ Ավելին</p>
       <p id="dvo2">Միանալ</p>
     </div>
@@ -329,7 +296,7 @@ function Home() {
     <img
       className="image"
       src="https://www.ucom.am/storage/files/mobile-id-web-10-1.png-1232x_-quality(75)-webp(80)-o(png).webp?token=8236c8c8938c11d27c891376d51140d9"
-      alt=""
+      alt=""  
     />
     <div className="arv">
       <h1>Mobile ID</h1>

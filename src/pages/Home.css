@@ -419,7 +419,7 @@ i{
 }
 #hv{
     font-size: 28px;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -518,10 +518,9 @@ i{
     font-size: 15px;
     text-align: center;
     border-radius: 10px;
-    padding: 10px;
     font-weight: bold;
     background-color: #71c313;
-    height: 20px;
+    height: 40px;
     width: 80px;
 }
 #mi:hover{
@@ -591,8 +590,8 @@ i{
     transition: 0.3s ease;
     font-weight: bold;
     background-color: #7CE00B;
-    height:20px;
-    width: 100px;
+    height:40px;
+    width: 120px;
     font-family: serif;
     text-align: center;
     padding: 10px;
@@ -984,7 +983,7 @@ h6{
 transform: scale(1);
 color: black;
 }
-#i2{
+#i2{    
     transition: 0.3s ease;
     width: 20px;
     height: 20px;
@@ -1077,6 +1076,10 @@ color: black;
     justify-content: space-between;
 }
 .type4{
+    display: flex;
+    justify-content: space-between;
+}
+.type5{
     display: flex;
     justify-content: space-between;
 }

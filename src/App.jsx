@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-import Swiper from "./components/Swiper.jsx";
 import Home from "./pages/Home.jsx";
 import Business from "./pages/Business.jsx";
 import Rouming from "./pages/Rouming.jsx";
@@ -12,7 +11,6 @@ function App() {
   return (
     <Router>
       <Header />
-      <Swiper />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/business" element={<Business />} />

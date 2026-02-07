@@ -1,4 +1,5 @@
 import React from "react";
+import ImageSwiper from "../components/ImageSwiper";
 function Business() {
   return (
 <section className="bg-black min-h-screen">
@@ -52,15 +53,7 @@ function Business() {
     </div>
   </div>
 
-  <img
-    src="https://www.ucom.am/storage/files/digital-banner-screens-02.png-786x_-quality(75)-webp(80)-o(png).webp"
-    alt=""
-    className="
-      mx-auto my-6 md:my-10
-      w-full md:w-[1400px]
-      h-[250px] sm:h-[350px] md:h-[600px]
-      object-cover rounded-2xl
-    "/>
+ <ImageSwiper />
   <div
     className="
       grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4

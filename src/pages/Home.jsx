@@ -6,6 +6,7 @@ function Home() {
   return ( 
     <>
     <div className="div2">
+      <div></div>
         <img id="img1" src="https://www.ucom.am/images/main_logo.svg" alt="" />
         <p id="p1">Տան համար</p>
         <br />
@@ -22,7 +23,7 @@ function Home() {
         <p id="p4">Uplay</p>
         <br />
         <br />
-        <div></div>
+        <div className="">
         <i className="fa fa-search" aria-hidden="true" />
         <br />
         <br />
@@ -32,6 +33,7 @@ function Home() {
         <br />
         <i className="fa fa-credit-card" aria-hidden="true" />
         <p id="pv">Վճարել</p>
+        </div>
       </div>
     <Swiper />
     <section>

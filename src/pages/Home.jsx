@@ -22,7 +22,6 @@ function Home() {
         <p id="p4">Uplay</p>
         <br />
         <br />
-        <div className="">
         <i className="fa fa-search" aria-hidden="true" />
         <br />
         <br />
@@ -33,7 +32,6 @@ function Home() {
         <i className="fa fa-credit-card" aria-hidden="true" />
         <p id="pv">Վճարել</p>
         </div>
-      </div>
     <Swiper />
     <section>
       <div className="div2">

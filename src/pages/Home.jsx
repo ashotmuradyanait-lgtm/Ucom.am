@@ -20,8 +20,8 @@ function Home() {
         <br />
         <br />
         <p id="p4">Uplay</p>
-        <br />
-        <br />
+        <br /> <br />
+        <br /><br />
         <i className="fa fa-search" aria-hidden="true" />
         <br />
         <br />

@@ -2,6 +2,47 @@
 function Rouming() {
   return (
  <section>
+   <div
+      className="
+        flex flex-wrap md:flex-nowrap
+        justify-center md:justify-end
+        gap-3
+        text-sm font-medium text-black items-center
+      "
+    >
+      {[
+        "Տան համար",
+        "Շարժական կապ",
+        "Ռոումինգ",
+        "5G ցանց",
+        "Uplay",
+      ].map((item, i) => (
+        <p
+          key={i}
+          className="
+            transition-all duration-300 h-[25px]
+            hover:scale-110 hover:bg-[yellowgreen]
+            px-3 py-1 rounded text-center
+          "
+        >
+          {item}
+        </p>
+      ))}
+
+      <i className="fa fa-search text-gray-400" />
+      <i className="fa fa-shopping-cart text-gray-400" />
+      <p className="text-[15px]">Առցանց խանութ</p>
+      <i className="fa fa-credit-card text-gray-400" />
+
+      <p
+        className="
+          bg-[#b4f293] text-black
+          w-[110px] h-[30px]
+          rounded text-center
+          transition hover:border hover:border-green-400">
+        Վճարել
+      </p>
+    </div>
 <div className="w-full md:w-[800px] mx-auto h-[300px] border border-gray-400 rounded-[20px] text-center bg-cover bg-center"
      style={{ backgroundImage: "url('https://www.ucom.am/storage/files/image-5-_x358-quality(75)-webp(80).png?token=9e55fd48d20e54f5a40a14823480a418')" }}>
   

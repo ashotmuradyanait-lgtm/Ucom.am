@@ -48,7 +48,7 @@ function Tanhamar() {
       </p>
     </div>
   </div>
-  <p className="text-[80px]">Տան ինտերնետ</p>
+  <p className="text-[50px]">Տան ինտերնետ</p>
     </>
   );
 }

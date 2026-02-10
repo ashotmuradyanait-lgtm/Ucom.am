@@ -9,10 +9,10 @@ function HeaderTop() {
     <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between border-b border-gray-400 px-4 py-3 whitespace-nowrap">
 
       <div className="flex gap-6 items-center">
-        <Link to="/" className="font-[Montserrat] text-gray-700 hover:text-black transition">
+        <Link to="/" className="font-[Manrope, Noto Sans Armenian, sans-serif] text-gray-500 hover:text-black transition">
           Անհատներ
         </Link>
-        <Link to="/business" className="font-[Montserrat] text-gray-700 hover:text-black transition">
+        <Link to="/business" className="font-[Manrope, Noto Sans Armenian, sans-serif] text-gray-700 hover:text-black transition">
           Բիզնես
         </Link>
       </div>

@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-import Tanhamar from ".pages/Tanhamar.jsx";
 import Home from "./pages/Home.jsx";
 import Business from "./pages/Business.jsx";
 import Rouming from "./pages/Rouming.jsx";
+import Tanhamar from "./pages/Tanhamar.jsx";
+
 
 function App() {
   return (

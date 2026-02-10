@@ -12,22 +12,22 @@ function Tanhamar() {
       className="
         flex flex-wrap md:flex-nowrap
         justify-center md:justify-end
-        gap-3
-        text-sm font-medium text-white items-center
+        gap-10
+        text-sm font-medium text-black items-center
       "
     >
       {[
+        "Տան համար",
         "Շարժական կապ",
-        "Ֆիքսված ծառայություններ",
-        "Բիզնես լուծումներ",
-        "Ամպային լուծումներ",
+        "Ռոումինգ",
+        "5G ցանց",
         "Uplay",
       ].map((item, i) => (
         <p
           key={i}
           className="
             transition-all duration-300
-            hover:scale-110 hover:bg-[#313231]
+            hover:scale-110 hover:bg-[yellowgreen]
             px-3 py-1 rounded text-center
           "
         >
@@ -35,8 +35,7 @@ function Tanhamar() {
         </p>
       ))}
            <i className="fa fa-search text-gray-400" />
-      <i className="fa fa-shopping-cart text-gray-400" />
-      <p className="text-[15px]">Առցանց խանութ</p>
+      <i className="fa fa-shopping-cart text-gray-400 text-[15px]" />Առցանց խանութ
       <i className="fa fa-credit-card text-gray-400" />
 
       <p
@@ -49,6 +48,7 @@ function Tanhamar() {
       </p>
     </div>
   </div>
+  <p className="text-[80px]">Տան ինտերնետ</p>
     </>
   );
 }

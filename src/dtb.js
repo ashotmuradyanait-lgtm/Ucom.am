@@ -1,3 +1,5 @@
+import Business from "./pages/Business";
+
 const dataBase = {
   Homecards: [
     {
@@ -98,6 +100,84 @@ const dataBase = {
       description: "Փաթեթներ (ինտերնետ, զանգեր և SMS)",
       img: "https://www.ucom.am/storage/files/anhatneri-hamar-335x_-quality(75)-webp(80).png?token=a7c06cc390ea15ea36bc04f8eea8f0c0"
     }, 
+  ],
+  Business: [
+      {
+      id: 1,
+      title: "BUSINESS Basic",
+      description: "Ամսական ինտերնետ փաթեթ 3000 դրամով",
+      price: 2800,
+      currency: "AMD",
+      isActive: true,
+      category: "Internet",
+      icon: "fa-solid fa-wifi",
+      features: [
+        "20 ԳԲ ինտերնետ",
+        "1000 րոպե",
+        "1000 SMS",
+      ]
+    },
+        {
+      id: 2,
+      title: "BUSINESS Optimum",
+      description: "Ամսական ինտերնետ փաթեթ 3000 դրամով",
+      price: 5000,
+      currency: "AMD",
+      isActive: true,
+      category: "Internet",
+      icon: "fa-solid fa-wifi",
+      features: [
+        "Անսահմանափակ ինտերնետ",
+        "3000 րոպե",
+        "3000 SMS",
+      ]
+    },
+    {
+      id: 3,
+      title: "uNet Corporate Basic",
+      description: "Ամսական ինտերնետ փաթեթ 3000 դրամով",
+      price: 18000,
+      currency: "AMD",
+      isActive: true,
+      category: "Internet",
+      icon: "fa-solid fa-wifi",
+      features: [
+        "35Մբ/վ արագություն",
+        "Wi-Fi սարք",
+        "FTTH տեխնոլոգիա",
+      ]
+    },
+    {
+      id: 4,
+      title: "uNet Corporate Premium",
+      description: "Ամսական ինտերնետ փաթեթ 3000 դրամով",
+      price: 40000,
+      currency: "AMD",
+      isActive: true,
+      category: "Internet",
+      icon: "fa-solid fa-wifi",
+      features: [
+        "75Մբ/վ արագություն",
+        "Wi-Fi սարք",
+        "FTTH տեխնոլոգիա",
+      ]
+    },
+    {
+      id: 5,
+      title: "Uplay Business Extra",
+      description: "Ամսական ինտերնետ փաթեթ 3000 դրամով",
+      price: 4900,
+      currency: "AMD",
+      isActive: true,
+      category: "Internet",
+      icon: "fa-solid fa-wifi",
+      features: [
+        "165+ հեռուստաալիք",
+        "34 HD ալիք",
+        "7 օր Catch-up",
+        "Անվճար Smart TV Box"
+      ]
+    },
   ]
 };
 

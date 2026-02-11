@@ -8,44 +8,64 @@ const dataBase = {
       currency: "AMD",
       isActive: true,
       category: "Internet",
-      image: "/images/levelup3000.png",
       icon: "fa-solid fa-wifi",
       features: [
-        "Անսահմանափակ ինտերնետ",
-        "5G աջակցություն",
-        "Անվճար SIM քարտ"
+        "30G ինտերնետ",
+        "1500 րոպե",
+        "300 SMS",
+        "35 հեռուստաալիք"
       ]
     },
     {
       id: 2,
-      title: "Level Up+ 5000",
+      title: "Level Up+ 4000",
       description: "Ավելի արագ և մեծ ծավալով փաթեթ",
-      price: 5000,
+      price: 4000,
       currency: "AMD",
       isActive: true,
       category: "Internet",
-      image: "/images/levelup5000.png",
       icon: "fa-solid fa-bolt",
       features: [
-        "Ավելի բարձր արագություն",
-        "Priority support",
-        "Անսահմանափակ զանգեր"
+        "Անսահմանափակ ինտերնետ",
+        "700 րոպե",
+        "500 SMS",
+        "35 հեռուստաալիք"
       ]
     },
     {
       id: 3,
-      title: "Business Pro",
+      title: "Level Up+ 5000",
       description: "Բիզնես լուծում մեծ թիմերի համար",
-      price: 12000,
+      price: 5000,
       currency: "AMD",
       isActive: false,
       category: "Business",
-      image: "/images/businesspro.png",
       icon: "fa-solid fa-briefcase",
       features: [
-        "Մինչև 10 աշխատակից",
-        "Dedicated manager",
-        "Cloud storage"
+        "Անսահմանափակ ինտերնետ",
+        "3000 րոպե",
+        "1000 SMS",
+        "200 ՄԲ ռոումինգում",
+        "35 հեռուստաալիք",
+      ]
+    },
+     {
+      id: 4,
+      title: "Unity 12500",
+      description: "Բիզնես լուծում մեծ թիմերի համար",
+      price: 12500,
+      currency: "AMD",
+      isActive: false,
+      category: "Business",
+      icon: "fa-solid fa-briefcase",
+      features: [
+        "Super Wi-Fi սարք",
+        "400ՄԲ/վ տան ինտերնետ",
+        "200+ հեռուստաալիք",
+        "Անվճար Premium WiFi Plus սարք",
+        "Smart TV box",
+        "Անսահմանափակ ինտերնետ",
+        "3000 րոպե"
       ]
     }
   ]

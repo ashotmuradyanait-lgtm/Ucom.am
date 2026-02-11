@@ -1,5 +1,5 @@
 const dataBase = {
-  cards: [
+  Homecards: [
     {
       id: 1,
       title: "Level Up+ 3000",
@@ -67,7 +67,37 @@ const dataBase = {
         "Անսահմանափակ ինտերնետ",
         "3000 րոպե"
       ]
-    }
+    },
+    {
+      id: 5,
+      title: "1",
+      description: "Լրացրեք դիմում հայտը",
+      isActive: true,
+    },
+     {
+      id: 6,
+      title: "2",
+      description: "1 աշխատանքային օրվա ընթացքում Ձեր հեռախոսահամարը կտեղափոխվի Ucom ցանց",
+      isActive: true,
+    },
+     {
+      id: 7,
+      title: "3",
+      description: " Տեղադրեք քարտը հեռախոսի մեջ և վայելեք շփումը",
+      isActive: true,
+    },
+      {
+      id: 8,
+      title: "Ընտանիքի համար",
+      description: "Տան ինտերնետ, բջջային ծառայություններ և TV",
+      img: "https://www.ucom.am/storage/files/unity5000-uplay-335x_-quality(75)-webp(80).png?token=06e2232b1afd4d5a58378de3752dd18e"
+    }, 
+    {
+      id: 9,
+      title: "Անհատների համար",
+      description: "Փաթեթներ (ինտերնետ, զանգեր և SMS)",
+      img: "https://www.ucom.am/storage/files/anhatneri-hamar-335x_-quality(75)-webp(80).png?token=a7c06cc390ea15ea36bc04f8eea8f0c0"
+    }, 
   ]
 };
 

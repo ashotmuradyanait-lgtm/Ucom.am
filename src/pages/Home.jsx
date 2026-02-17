@@ -1,8 +1,10 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import "./Home.css"
 import Swiper from "../components/Swiper";
 function Home() {
+  const [isOpen, setIsOpen] = useState(false);
   return ( 
     <>
     <div className="div2">
@@ -30,7 +32,20 @@ function Home() {
         <br />
         <br />
         <i className="fa fa-credit-card" aria-hidden="true" />
-        <p id="pv">Վճարել</p>
+      <div id="pv">
+      <button onClick={() => setIsOpen(!isOpen)}>
+        Վճարել
+      </button>
+
+      {isOpen && (
+        <div className="card">
+         <h3>Համալրեք Ձեր հաշիվն առցանց</h3>
+         <img id="hook1" src="https://www.ucom.am/storage/files/rectangle-513-1.png-_x35-quality(75)-webp(80)-o(png).webp?token=83544146107f1d0341162aa6236c6ecb" alt="" />
+        <img id="hook2" src="https://www.ucom.am/storage/files/capture-1.png-_x35-quality(75)-webp(80)-o(png).webp?token=5372c32f423c6a04592951e57a818c08" alt="" />
+        
+        </div>
+      )}
+    </div>
         </div>
     <Swiper />
     <section>

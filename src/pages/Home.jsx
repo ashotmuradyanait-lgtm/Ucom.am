@@ -39,10 +39,11 @@ function Home() {
 
       {isOpen && (
         <div className="card">
+        <div>
          <h3>Համալրեք Ձեր հաշիվն առցանց</h3>
          <img id="hook1" src="https://www.ucom.am/storage/files/rectangle-513-1.png-_x35-quality(75)-webp(80)-o(png).webp?token=83544146107f1d0341162aa6236c6ecb" alt="" />
         <img id="hook2" src="https://www.ucom.am/storage/files/capture-1.png-_x35-quality(75)-webp(80)-o(png).webp?token=5372c32f423c6a04592951e57a818c08" alt="" />
-        
+        </div>
         </div>
       )}
     </div>

@@ -51,7 +51,9 @@ function Tanhamar() {
   <p className="text-[30px] text-black">Տան ինտերնետ</p>
   <h4 className="text-gray-800 font-semibold">Հուսալի ինտերնետ տան համար</h4>
 
-  <div></div>
+  <div>
+    <div></div>
+  </div>
     </>
   );
 }

@@ -52,7 +52,9 @@ function Tanhamar() {
   <h4 className="text-gray-800 font-semibold">Հուսալի ինտերնետ տան համար</h4>
 
   <div>
-    <div></div>
+    <div className="h-[500px] w-[350px] border border-gray-400 rounded-lg">
+      <p>uNet 7000</p>
+    </div>
   </div>
     </>
   );

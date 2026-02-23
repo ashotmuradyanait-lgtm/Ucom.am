@@ -21,7 +21,7 @@ function Home() {
         <p id="p3">5G ցանց</p>
         <br />
         <br />
-        <p id="p4">Uplay</p>
+        <p id="p4">Uplay</p>      
         <br /> <br />
         <br /><br />
         <i className="fa fa-search" aria-hidden="true" />
@@ -38,11 +38,13 @@ function Home() {
       </button>
 
       {isOpen && (
-        <div className="card">
-        <div>
+      <div className="card">
          <h3>Համալրեք Ձեր հաշիվն առցանց</h3>
+      <div className="card2">
          <img id="hook1" src="https://www.ucom.am/storage/files/rectangle-513-1.png-_x35-quality(75)-webp(80)-o(png).webp?token=83544146107f1d0341162aa6236c6ecb" alt="" />
         <img id="hook2" src="https://www.ucom.am/storage/files/capture-1.png-_x35-quality(75)-webp(80)-o(png).webp?token=5372c32f423c6a04592951e57a818c08" alt="" />
+        <img id="hook3" src="https://www.ucom.am/storage/files/upay-logo.svg" alt="" />
+        <img id="hook4" src="https://www.ucom.am/storage/files/group-3.png-_x35-quality(75)-webp(80)-o(png).webp?token=bbb9fdc3859b907d72ccba0b00c09f8d" alt="" />
         </div>
         </div>
       )}

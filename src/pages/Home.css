@@ -42,17 +42,29 @@
     height: 500px;
     width: 300px;
     border-radius: 20px;
-    background-color: #999c96;
+    background-color: #dce2d7;
     z-index: 1000;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
+.card2{
+    display: flex;
+    justify-content: space-between;
+}
 #hook1{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
+}
+#hook3{
+    height: 40px;
+    width: 40px;
 }
 #hook2{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 120px;
+}
+#hook4{
+    height: 40px;
+    width: 50px;
 }
 #p1:hover{
     transform: scale(1.1);

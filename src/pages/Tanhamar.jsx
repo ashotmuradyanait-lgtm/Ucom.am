@@ -53,7 +53,8 @@ function Tanhamar() {
 
   <div>
     <div className="h-[500px] w-[350px] border border-gray-400 rounded-lg">
-      <p>uNet 7000</p>
+      <p className="bg-[#7ce00b] h-[60px] w-[350px] text-white rounded-lg text-[18px] text-center">uNet 7000</p>
+      <i class="fa fa-home" aria-hidden="true"></i>
     </div>
   </div>
     </>

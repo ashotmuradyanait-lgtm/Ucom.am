@@ -51,10 +51,42 @@ function Tanhamar() {
   <p className="text-[30px] text-black">Տան ինտերնետ</p>
   <h4 className="text-gray-800 font-semibold">Հուսալի ինտերնետ տան համար</h4>
 
-  <div>
-    <div className="h-[500px] w-[350px] border border-gray-400 rounded-lg">
+  <div className="flex gap-[50px]">
+    <div className="h-[400px] w-[350px] border border-gray-400 rounded-lg">
       <p className="bg-[#7ce00b] h-[60px] w-[350px] text-white rounded-lg text-[18px] text-center">uNet 7000</p>
-      <i class="fa fa-home" aria-hidden="true"></i>
+      <i class="fa fa-home" aria-hidden="true">150 Մբ/վ տան ինտերնետ</i>
+      <br /><br />
+      <i class="fa fa-wifi" aria-hidden="true">Wi-FI սարք</i>
+      <br /><br />
+      <i class="fa fa-globe" aria-hidden="true">FTTH տեխնոլոգիա</i>
+      <br /><br />
+      <p className="flex flex gap-30 text-[20px]">7 000 ֏  <p className="text-[14px] text-gray">Ավելին</p></p>
+      <br /><br />
+      <p className="text-center bg-[#7ce00b] h-[35px] w-[200px] hover:bg-green-300 rounded-lg">Միանալ</p>
+    </div>
+    <div className="h-[400px] w-[350px] border border-gray-400 rounded-lg">
+      <p className="bg-[#7ce00b] h-[60px] w-[350px] text-white rounded-lg text-[18px] text-center">uNet 9500</p>
+      <i class="fa fa-home" aria-hidden="true">250 Մբ/վ տան ինտերնետ</i>
+      <br /><br />
+      <i class="fa fa-wifi" aria-hidden="true">Super Wi-FI սարք</i>
+      <br /><br />
+      <i class="fa fa-globe" aria-hidden="true">FTTH տեխնոլոգիա</i>
+      <br /><br />
+      <p className="flex flex gap-30 text-[20px]">9 500 ֏  <p className="text-[14px] text-gray">Ավելին</p></p>
+      <br /><br />
+      <p className="text-center bg-[#7ce00b] h-[35px] w-[200px] hover:bg-green-300 rounded-lg">Միանալ</p>
+    </div>
+    <div className="h-[400px] w-[350px] border border-gray-400 rounded-lg">
+      <p className="bg-[#7ce00b] h-[60px] w-[350px] text-white rounded-lg text-[18px] text-center">uNet 5000 Մարզային</p>
+      <i class="fa fa-home" aria-hidden="true">100 Մբ/վ տան ինտերնետ</i>
+      <br /><br />
+      <i class="fa fa-wifi" aria-hidden="true">Wi-FI սարք</i>
+      <br /><br />
+      <i class="fa fa-globe" aria-hidden="true">FTTH տեխնոլոգիա</i>
+      <br /><br />
+      <p className="flex flex gap-30 text-[20px]">5 000 ֏  <p className="text-[14px] text-gray">Ավելին</p></p>
+      <br /><br />
+      <p className="text-center bg-[#7ce00b] h-[35px] w-[200px] hover:bg-green-300 rounded-lg">Միանալ</p>
     </div>
   </div>
     </>
